@@ -58,7 +58,7 @@ export default function Home() {
               <AiFillYoutube />
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image src={deved} layout="fill" objectFit="cover" alt="Nanda Kaws" />
             </div>
           </div>
         </section>
@@ -85,6 +85,7 @@ export default function Home() {
                     height={"100%"}
                     layout="responsive"
                     src={web1}
+                    alt="Al Quran"
                   />
                 </a>
               </Link>
@@ -99,6 +100,7 @@ export default function Home() {
                     height={"100%"}
                     layout="responsive"
                     src={web2}
+                    alt="HeaderLock"
                   />
                 </a>
               </Link>
@@ -113,6 +115,7 @@ export default function Home() {
                     height={"60%"}
                     layout="responsive"
                     src={web3}
+                    alt="Vscode"
                   />
                 </a>
               </Link>
