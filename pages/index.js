@@ -7,10 +7,6 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import deved from "../public/gambar.jpg";
-import web1 from "../public/alquran.png";
-import web2 from "../public/header.png";
-import web3 from "../public/extension.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -58,7 +54,7 @@ export default function Home() {
               <AiFillYoutube />
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" alt="Nanda Kaws" />
+              <img src={"gambar.jpg"} layout="fill" objectFit="cover" alt="Nanda Kaws" />
             </div>
           </div>
         </section>
@@ -79,12 +75,12 @@ export default function Home() {
               <h1 className="text-2xl font-bold text-white text-center mb-4">Al Quran Website</h1>
               <Link href="https://readalquran.vercel.app/">
                 <a>
-                  <Image
+                  <img
                     className="rounded-lg object-cover hover:scale-105 duration-200 cursor-pointer"
                     width={"100%"}
                     height={"100%"}
                     layout="responsive"
-                    src={web1}
+                    src={"alquran.png"}
                     alt="Al Quran"
                   />
                 </a>
@@ -94,12 +90,12 @@ export default function Home() {
               <h1 className="text-2xl font-bold text-white text-center mb-4">API Secure Library</h1>
               <Link href="https://www.npmjs.com/package/headerlock">
                 <a>
-                  <Image
+                  <img
                     className="rounded-lg object-cover hover:scale-105 duration-200 cursor-pointer"
                     width={"100%"}
                     height={"100%"}
                     layout="responsive"
-                    src={web2}
+                    src={"header.png"}
                     alt="HeaderLock"
                   />
                 </a>
@@ -109,12 +105,12 @@ export default function Home() {
               <h1 className="text-2xl font-bold text-white text-center mb-4">VS Code Extension Started Template</h1>
               <Link href="https://marketplace.visualstudio.com/items?itemName=NandaKaws.bociljs">
                 <a>
-                  <Image
+                  <img
                     className="rounded-lg object-cover hover:scale-105 duration-200 cursor-pointer"
                     width={"100%"}
                     height={"60%"}
                     layout="responsive"
-                    src={web3}
+                    src={"extension.png"}
                     alt="Vscode"
                   />
                 </a>
