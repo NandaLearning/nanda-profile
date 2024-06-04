@@ -5,7 +5,6 @@ import {
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -54,7 +53,7 @@ export default function Home() {
               <AiFillYoutube />
             </div>
             <div className="justify-center items-center flex">
-              <Image
+              <img
                 className="rounded-full mt-10"
                 src="/gambar.jpg"
                 width={320}
@@ -81,11 +80,10 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <h1 className="text-2xl font-bold text-black dark:text-white text-center mb-4">Al Quran Website</h1>
               <Link href="https://readalquran.vercel.app/">
-                <Image
+                <img
                   className="rounded-lg object-cover hover:scale-105 duration-200 cursor-pointer"
                   width={1000}
                   height={1000}
-                  layout="responsive"
                   src="/alquran.png"
                   alt="Al Quran"
                 />
@@ -94,11 +92,10 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <h1 className="text-2xl font-bold text-black dark:text-white text-center mb-4">API Secure Library</h1>
               <Link href="https://www.npmjs.com/package/headerlock">
-                <Image
+                <img
                   className="rounded-lg object-cover hover:scale-105 duration-200 cursor-pointer"
                   width={1000}
                   height={1000}
-                  layout="responsive"
                   src="/header.png"
                   alt="HeaderLock"
                 />
@@ -107,11 +104,10 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <h1 className="text-2xl font-bold text-black dark:text-white text-center mb-4">VS Code Extension Started Template</h1>
               <Link href="https://marketplace.visualstudio.com/items?itemName=NandaKaws.bociljs">
-                <Image
+                <img
                   className="rounded-lg object-cover hover:scale-105 duration-200 cursor-pointer"
                   width={1000}
                   height={600}
-                  layout="responsive"
                   src="/extension.png"
                   alt="Vscode"
                 />
