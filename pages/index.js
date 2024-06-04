@@ -56,7 +56,7 @@ export default function Home() {
             <div className="justify-center items-center flex">
               <Image
                 className="rounded-full mt-10"
-                src="/public/gambar.jpg"
+                src="/gambar.jpg"
                 width={320}
                 height={320}
                 objectFit="cover"
@@ -85,7 +85,7 @@ export default function Home() {
                   className="rounded-lg object-cover hover:scale-105 duration-200 cursor-pointer"
                   width={1000}
                   height={1000}
-                  src="/public/alquran.png"
+                  src="/alquran.png"
                   alt="Al Quran"
                 />
               </Link>
@@ -97,7 +97,7 @@ export default function Home() {
                   className="rounded-lg object-cover hover:scale-105 duration-200 cursor-pointer"
                   width={1000}
                   height={1000}
-                  src="/public/header.png"
+                  src="/header.png"
                   alt="HeaderLock"
                 />
               </Link>
@@ -109,7 +109,7 @@ export default function Home() {
                   className="rounded-lg object-cover hover:scale-105 duration-200 cursor-pointer"
                   width={1000}
                   height={600}
-                  src="/public/extension.png"
+                  src="/extension.png"
                   alt="Vscode"
                 />
               </Link>
